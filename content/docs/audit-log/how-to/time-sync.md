@@ -10,11 +10,8 @@ icon: "replicatedCircle"
 
 A good audit log should record a synchronized timestamp that allows an end customer to determine with a high level of confidence:
 
-* The human-readable time an event occured,for example:
-`sheet.create occurred at 2017-01-01 17:45:22.011`
-
-* The ordering of events, for example
-`sheet.create occured before sheet.update`
+- The human-readable time an event occured,for example: "sheet.create occurred at 2017-01-01 17:45:22.011"
+- The ordering of events, for example: "sheet.create occured before sheet.update"
 
 ## Wall Time vs. Causal Ordering
 
